@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#323232">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#323232"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="INFORMATIONS :"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <Space
+        android:layout_width="348dp"
+        android:layout_height="23dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="353dp"
+        android:layout_height="71dp"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+
+    <TextView
+        android:id="@+id/birthYear"
+        android:layout_width="353dp"
+        android:layout_height="71dp"
+        android:text="BirthYear"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="353dp"
+        android:layout_height="71dp"
+        android:text="gender"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/hairColor"
+        android:layout_width="353dp"
+        android:layout_height="71dp"
+        android:text="hairColor"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="353dp"
+        android:layout_height="71dp"
+        android:text="height"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/homeWorldUrl"
+        android:layout_width="353dp"
+        android:layout_height="71dp"
+        android:text="homeWorldUrl"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:id="@+id/mass"
+        android:layout_width="353dp"
+        android:layout_height="71dp"
+        android:text="mass"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <TextView
+        android:id="@+id/skinColor"
+        android:layout_width="353dp"
+        android:layout_height="71dp"
+        android:text="skinColor"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/created"
+        android:layout_width="353dp"
+        android:layout_height="71dp"
+        android:text="created"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/edited"
+        android:layout_width="353dp"
+        android:layout_height="72dp"
+        android:text="edited"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="353dp"
+        android:layout_height="73dp"
+        android:text="url"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+
+</LinearLayout>
+
+</ScrollView>

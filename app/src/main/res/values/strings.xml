@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ESEO Course</string>
+
+    <!-- Configuration form -->
+    <string name="connect_to_raspberrypi">Select a RaspberryPi</string>
+    <string name="configuration">Configuration</string>
+    <string name="connect">Connection</string>
+    <string name="gpio_pin_for_button">GPIO Pin for button</string>
+    <string name="gpio_pin_for_led">GPIO Pin for LED</string>
+    <string name="devices_in_range">Devices in range</string>
+    <string name="no_device_found">No device found</string>
+    <string name="devices_activity_title">Devices in range</string>
+    <string name="ble_scan_error">Something went wrong trying to get BLE devices. Error code : %1$d</string>
+    <string name="no_device_selected">No device selected</string>
+    <string name="ble_connected_to_device"><![CDATA[Connected to <%1$s>]]></string>
+    <string name="disconnect_to_raspberrypi">Disconnect device</string>
+
+</resources>
